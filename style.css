@@ -1,0 +1,182 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:black;
+}
+
+a{
+    color:rgb(33, 204, 204);
+}
+
+.footer-navbar1{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    margin-top:435px;
+    border-top: solid rgb(33, 204, 204);
+    color:white;
+    margin-bottom:-18px;
+
+    
+}
+
+.logos{
+    font-size:20px;
+    color:white;
+    justify-content: space-evenly;
+    padding-right:5px;
+
+}
+
+#find-us-icon{
+    display:block;
+    align-items:center ;
+    color:white;
+    
+}
+
+
+#find-us{
+    display:flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:white;
+}
+
+#call-us-icon{
+    display:block;
+    align-items:center ;
+    color:white;
+
+}
+
+#call-us{
+    display:flex;
+    align-items: center;
+    padding-left: 400px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:white;
+    
+}
+
+
+#mail-us-icon{
+    display:block;
+    align-items:center ;
+    color:white;
+    
+}
+
+#mail-us{
+    display:flex;
+    align-items: center;
+    padding-left: 250px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:white;
+}
+
+
+
+.footer-navbar2{
+    display:flex;
+    align-items: center;
+    background-color: black;
+    border-top: solid rgb(33, 204, 204);
+    margin-bottom:0px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#club-name{
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:white;
+}
+
+#social-logos{
+    display:flex;
+    padding-left: 700px;
+    color:white;
+}
+
+#twitter{
+    font-size: 30px;
+    padding-left: 50px;
+    color:white;
+}
+
+#facebook{
+    font-size: 30px;
+    padding-left: 50px;
+    color:white;   
+}
+
+#instagram{
+    font-size: 30px;
+    padding-left: 50px;
+    color:white; 
+}
+
+#linkedin{
+    font-size: 30px;
+    padding-left: 50px;
+    color:white;  
+}
+
+
+
+
+@media only screen and (max-width:700px){
+    .footer1and2{
+        display:wrap;
+    }
+    .footer-navbar1{
+        display:block;
+        
+    }
+    .footer-navbar1{
+        padding-top: 20px;
+    }
+
+    .footer-navbar2{
+        display:block;
+        
+    }
+    #club-name{
+        padding-left:100px;
+    }
+
+    #social-logos{
+        display:flex;
+        padding-left: 10px;
+        
+    }
+
+    #find-us{
+        
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+
+    #call-us{
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+
+    #mail-us{
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+}
